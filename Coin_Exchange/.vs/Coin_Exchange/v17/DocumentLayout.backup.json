@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Coin_Exchange\\",
+  "WorkspaceRootPath": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\coin_exchange\\coin_exchange\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\configuration\\jwtproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\configuration\\jwtproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\configuration\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\configuration\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\coin_exchange\\coin_exchange\\models\\modal\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\coinexchange\\tradingcoin\\coin_exchange\\coin_exchange\\models\\modal\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "JwtProviders.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "RelativeToolTip": "Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:50:17.424Z",
+              "WhenOpened": "2025-05-16T08:47:54.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\AppConfig.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\AppConfig.cs",
+              "RelativeToolTip": "Coin_Exchange\\Configuration\\AppConfig.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwCsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:29:22.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\appsettings.json",
+              "RelativeDocumentMoniker": "Coin_Exchange\\appsettings.json",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\appsettings.json",
+              "RelativeToolTip": "Coin_Exchange\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T08:27:01.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Program.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Program.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Program.cs",
+              "RelativeToolTip": "Coin_Exchange\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:21:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:50:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\User.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\CoinExchange\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
               "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:42:45.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T07:42:45.969Z"
             }
           ]
         }
