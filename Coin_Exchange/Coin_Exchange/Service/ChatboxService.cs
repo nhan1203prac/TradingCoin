@@ -8,12 +8,13 @@ namespace Coin_Exchange.Service
 {
     public class ChatboxService : IChatboxService
     {
-        private readonly string GEMINI_API_KEY = "AIzaSyDxhe7gDZn_YUCWDZJEGPsx9Oz33y1jtgY";
+        private readonly string GEMINI_API_KEY;
         private readonly HttpClient _httpClient;
 
-        public ChatboxService(HttpClient httpClient)
+        public ChatboxService(HttpClient httpClient, IConfiguration configuration)
         {
             _httpClient = httpClient;
+            GEMINI_API_KEY = configuration["GeminiApiKey"];
         }
         public Double ConvertDouble(Object value)
         {
