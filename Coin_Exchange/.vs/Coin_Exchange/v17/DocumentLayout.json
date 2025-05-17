@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\request\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\request\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\response\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\response\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\designtimedbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\designtimedbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\configuration\\jwtproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\configuration\\jwtproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\wallettransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\wallettransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\withdrawal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\withdrawal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\watchlistcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\watchlistcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\watchlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\twofactorotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\twofactorotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\paymentorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\paymentorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\paymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\paymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\forgotpasswordtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\forgotpasswordtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\modal\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\modal\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\withdrawalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\withdrawalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\wallettransactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\wallettransactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\user_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\user_role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\paymentorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\paymentorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\enum\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\enum\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|c:\\users\\dell\\source\\repos\\btckc#\\coin_exchange\\coin_exchange\\configuration\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\configuration\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SendOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:01:33.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\ApiResponse.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Response\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:59:57.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\AuthResponse.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Response\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:53:44.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:53:01.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Coin_Exchange\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:46:59.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DesignTimeDbContextFactory .cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:33:07.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WalletTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:52:14.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\appsettings.json",
+              "RelativeDocumentMoniker": "Coin_Exchange\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\appsettings.json",
+              "RelativeToolTip": "Coin_Exchange\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T08:27:01.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADsAAABAMTMzM/MmwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:50:17.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtProviders.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "RelativeToolTip": "Coin_Exchange\\Configuration\\JwtProviders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:47:54.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:50:24.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Program.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Program.cs",
+              "RelativeToolTip": "Coin_Exchange\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:21:43.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Withdrawal.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
+              "ViewState": "AgIAAAEAAABAMzMzMzMrwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:52:29.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WatchlistCoin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:52:26.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Watchlist.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Watchlist.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Watchlist.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Watchlist.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Watchlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:52:17.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Wallet.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Wallet.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Wallet.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:57.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:42:45.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TwoFactorOtp.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentOrder.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:45.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\OrderItem.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:36.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Order.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Order.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Order.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:29.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ForgotPasswordToken.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:17.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Coin.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Coin.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Coin.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:49:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Asset.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Asset.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Asset.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Modal\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:49:17.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WithdrawalStatus.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:05.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WalletTransactionType.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:51:00.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "USER_ROLE.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:50:30.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:50:29.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:50:28.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderType.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderType.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\OrderType.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderType.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Enum\\OrderType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:50:27.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:10:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Configuration\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\Configuration\\AppConfig.cs",
+              "RelativeToolTip": "Coin_Exchange\\Configuration\\AppConfig.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwCsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:29:22.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
