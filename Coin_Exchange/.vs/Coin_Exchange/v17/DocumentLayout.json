@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\clone\\tradingcoin\\coin_exchange\\coin_exchange\\controllers\\withdrawalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\controllers\\withdrawalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\clone\\tradingcoin\\coin_exchange\\coin_exchange\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\clone\\tradingcoin\\coin_exchange\\coin_exchange\\models\\response\\userwatchlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\models\\response\\userwatchlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|d:\\dh\\224\\224c#cb\\clone\\tradingcoin\\coin_exchange\\coin_exchange\\controllers\\wallettransationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A7D254-A260-4068-9224-AB5440A469CA}|Coin_Exchange\\Coin_Exchange.csproj|solutionrelative:coin_exchange\\controllers\\wallettransationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -254,6 +266,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WithdrawalController.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WithdrawalController.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\WithdrawalController.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WithdrawalController.cs",
+              "RelativeToolTip": "Coin_Exchange\\Controllers\\WithdrawalController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:21:18.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserWatchlistResponse.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\UserWatchlistResponse.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\UserWatchlistResponse.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\UserWatchlistResponse.cs",
+              "RelativeToolTip": "Coin_Exchange\\Models\\Response\\UserWatchlistResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:20:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WatchlistController.cs",
+              "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WatchlistController.cs",
+              "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\WatchlistController.cs",
+              "ToolTip": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WatchlistController.cs",
+              "RelativeToolTip": "Coin_Exchange\\Controllers\\WatchlistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:18:51.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WalletTransationController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WalletTransationController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\WalletTransationController.cs",
@@ -266,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WalletTransactionRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\WalletTransactionRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\WalletTransactionRequest.cs",
@@ -274,12 +325,11 @@
               "RelativeToolTip": "Coin_Exchange\\Models\\Request\\WalletTransactionRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T11:06:15.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T11:06:15.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WalletController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\WalletController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\WalletController.cs",
@@ -287,12 +337,11 @@
               "RelativeToolTip": "Coin_Exchange\\Controllers\\WalletController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T11:03:58.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T11:03:58.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Service\\PaymentService.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Service\\PaymentService.cs",
@@ -304,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PaymentResponse.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\PaymentResponse.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\PaymentResponse.cs",
@@ -316,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\PaymentController.cs",
@@ -328,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PaymentDetailController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\PaymentDetailController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\PaymentDetailController.cs",
@@ -336,12 +385,11 @@
               "RelativeToolTip": "Coin_Exchange\\Controllers\\PaymentDetailController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:18:50.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T12:18:50.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Program.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Program.cs",
@@ -353,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PaymentDetailRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\PaymentDetailRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\PaymentDetailRequest.cs",
@@ -365,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\OrderController.cs",
@@ -377,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CoinController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\CoinController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\CoinController.cs",
@@ -389,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\BTCKC#\\Coin_Exchange\\Coin_Exchange\\appsettings.Development.json",
@@ -399,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\appsettings.json",
               "RelativeDocumentMoniker": "Coin_Exchange\\appsettings.json",
@@ -411,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ChatboxService.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Service\\ChatboxService.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Service\\ChatboxService.cs",
@@ -423,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ChatBoxController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\ChatBoxController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\ChatBoxController.cs",
@@ -435,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\.gitignore",
               "RelativeDocumentMoniker": "Coin_Exchange\\.gitignore",
@@ -447,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\AuthController.cs",
@@ -459,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "PromptBody.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\PromptBody.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\PromptBody.cs",
@@ -471,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Coin_Exchange\\Properties\\launchSettings.json",
@@ -483,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ContentItem.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\ContentItem.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\ContentItem.cs",
@@ -495,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Part.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\Part.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\Part.cs",
@@ -507,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\AppConfig.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\AppConfig.cs",
@@ -519,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "FunctionCall.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\FunctionCall.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\FunctionCall.cs",
@@ -531,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "FunctionResponseData.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\FunctionResponseData.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\FunctionResponseData.cs",
@@ -543,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ResponseData.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\ResponseData.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\ResponseData.cs",
@@ -555,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\HomeController.cs",
@@ -567,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "FunctionResponse.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\FunctionResponse.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\FunctionResponse.cs",
@@ -579,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\ApiResponse.cs",
@@ -591,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "CoinDto.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\CoinDto.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\CoinDto.cs",
@@ -603,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "NewPasswordRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\NewPasswordRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\NewPasswordRequest.cs",
@@ -615,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Controllers\\UserController.cs",
@@ -627,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ForgotPasswordRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\ForgotPasswordRequest.cs",
@@ -639,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "SendOtpRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\SendOtpRequest.cs",
@@ -651,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "AuthResponse.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Response\\AuthResponse.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Response\\AuthResponse.cs",
@@ -663,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Request\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Request\\LoginRequest.cs",
@@ -675,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "DesignTimeDbContextFactory .cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\DesignTimeDbContextFactory .cs",
@@ -687,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "WalletTransaction.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\WalletTransaction.cs",
@@ -699,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ApplicationDbContext.cs",
@@ -711,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "JwtProviders.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Configuration\\JwtProviders.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Configuration\\JwtProviders.cs",
@@ -723,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\OrderStatus.cs",
@@ -735,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "Withdrawal.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Withdrawal.cs",
@@ -747,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "WatchlistCoin.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\WatchlistCoin.cs",
@@ -759,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Watchlist.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Watchlist.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Watchlist.cs",
@@ -771,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "Wallet.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Wallet.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Wallet.cs",
@@ -783,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\User.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\User.cs",
@@ -795,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "TwoFactorOtp.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\TwoFactorOtp.cs",
@@ -807,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "PaymentOrder.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\PaymentOrder.cs",
@@ -819,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "PaymentDetails.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\PaymentDetails.cs",
@@ -831,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\OrderItem.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\OrderItem.cs",
@@ -843,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Order.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Order.cs",
@@ -855,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "ForgotPasswordToken.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\ForgotPasswordToken.cs",
@@ -867,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "Coin.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Coin.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Coin.cs",
@@ -879,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "Asset.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Modal\\Asset.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Modal\\Asset.cs",
@@ -891,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "WithdrawalStatus.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\WithdrawalStatus.cs",
@@ -903,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "WalletTransactionType.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\WalletTransactionType.cs",
@@ -915,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "USER_ROLE.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\USER_ROLE.cs",
@@ -927,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "PaymentOrderStatus.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\PaymentOrderStatus.cs",
@@ -939,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "PaymentMethod.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\PaymentMethod.cs",
@@ -951,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "OrderType.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\Enum\\OrderType.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\Enum\\OrderType.cs",
@@ -963,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\DH\\224\\224C#CB\\Clone\\TradingCoin\\Coin_Exchange\\Coin_Exchange\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Coin_Exchange\\Models\\ErrorViewModel.cs",
