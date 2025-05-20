@@ -21,6 +21,7 @@ namespace Coin_Exchange.Service
         }
         public PaymentResponse createStripePaymentLing(User user, long amount, long orderId)
         {
+            StripeConfiguration.ApiKey = StripeSecretKey;
             var options = new SessionCreateOptions
             {
                 PaymentMethodTypes = new List<string> { "card" },
