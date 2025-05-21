@@ -1,31 +1,5 @@
 [
   {
-    "ContainingType": "Coin_Exchange.Controllers.CoinController",
-    "Method": "getCoinById",
-    "RelativePath": "{coinId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "coinId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Coin_Exchange.Models.Response.AuthResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Coin_Exchange.Controllers.ChatBoxController",
     "Method": "GetCoinDetails",
     "RelativePath": "ai/chat",
@@ -935,6 +909,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Coin_Exchange.Models.Modal.Coin, Coin_Exchange, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Coin_Exchange.Controllers.CoinController",
+    "Method": "getCoinById",
+    "RelativePath": "coins/{coinId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coinId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Coin_Exchange.Models.Response.AuthResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
