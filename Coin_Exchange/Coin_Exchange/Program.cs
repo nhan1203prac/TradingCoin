@@ -2,15 +2,16 @@
 using Coin_Exchange.Models;
 using Coin_Exchange.Service;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //builder.Services.AddScoped<IChatboxService, ChatboxService>();
-builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddHttpClient<IChatboxService, ChatboxService>();
+
 
 //Dang ki DbContext vào DI container của ASP.NET Core
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -30,11 +31,12 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseCors("CorsPolicy");
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
