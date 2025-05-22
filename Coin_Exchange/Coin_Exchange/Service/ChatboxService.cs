@@ -256,7 +256,7 @@ namespace Coin_Exchange.Service
      
         
 
-        public async Task<string> SimpleChat(string prompt)
+        public async Task<ApiResponse> SimpleChat(string prompt)
         {
             string geminiApiUrl = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}";
             var requestBody = new
@@ -273,14 +273,21 @@ namespace Coin_Exchange.Service
             var content = new StringContent(JsonSerializer.Serialize(requestBody), Encoding.UTF8, "application/json");
             var response = await _httpClient.PostAsync(geminiApiUrl, content);
             response.EnsureSuccessStatusCode();
-
-            return await response.Content.ReadAsStringAsync();
+            var responseBody = await response.Content.ReadAsStringAsync();
+            var jsonDoc = JsonDocument.Parse(responseBody);
+       
+            string text = jsonDoc.RootElement
+                .GetProperty("candidates")[0]
+                .GetProperty("content")
+                .GetProperty("parts")[0]
+                .GetProperty("text").GetString();
+            return new ApiResponse { message = text };
         }
     }
 
     public interface IChatboxService
     {
         Task<ApiResponse> GetCoinDetails(string prompt);
-        Task<string> SimpleChat(string prompt);
+        Task<ApiResponse> SimpleChat(string prompt);
     }
 }

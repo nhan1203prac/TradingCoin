@@ -23,7 +23,7 @@ namespace Coin_Exchange.Controllers
         }
 
         [HttpPost("simple")]
-        public async Task<ActionResult<string>> SimpleChat([FromBody] PromptBody promptBody)
+        public async Task<ActionResult<ApiResponse>> SimpleChat([FromBody] PromptBody promptBody)
         {
             var result = await _chatboxService.SimpleChat(promptBody.Prompt);
             return Ok(result);

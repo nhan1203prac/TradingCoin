@@ -20,13 +20,16 @@ namespace Coin_Exchange.Controllers
         [HttpGet("{assetId}")]
         public async Task<ActionResult<Asset>> getAssetById(long assetId)
         {
-            Asset asset = await _context.Assets.FirstOrDefaultAsync(a => a.id == assetId);
+            Asset asset = await _context.Assets
+                .Include(a => a.coin)
+                .Include(a => a.user)
+                .FirstOrDefaultAsync(a => a.id == assetId);
             return Ok(asset);
 
         }
 
         [HttpGet("coin/{coinId}/user")]
-        public async Task<ActionResult<Asset>> getAssetByUserIdAndCoinId(long coinId, [FromHeader(Name = "Authorization")] string jwt)
+        public async Task<ActionResult<Asset>> getAssetByUserIdAndCoinId(string coinId, [FromHeader(Name = "Authorization")] string jwt)
         {
             string enail = JwtProviders.GetEmailFromToken(jwt);
             User user = await _context.Users.FirstOrDefaultAsync(u => u.email == enail);
@@ -46,6 +49,7 @@ namespace Coin_Exchange.Controllers
             string enail = JwtProviders.GetEmailFromToken(jwt);
             User user = await _context.Users.FirstOrDefaultAsync(u => u.email == enail);
             List<Asset> assets = await _context.Assets
+                .Include(a => a.coin)
              .Where(a => a.user.id == user.id)
              .ToListAsync();
 
