@@ -11,7 +11,7 @@ namespace Coin_Exchange.Models.Response
         public double BuyPrice { get; set; }
         public double SellPrice { get; set; }
         public Coin Coin { get; set; }
-        public OrderType orderType { get; set; }
+        public string orderType { get; set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal price { get; set; }
         public DateTime Timestamps { get; set; }

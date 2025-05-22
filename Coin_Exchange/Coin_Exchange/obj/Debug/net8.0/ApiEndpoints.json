@@ -41,7 +41,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "Coin_Exchange.Models.Response.ApiResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -175,7 +175,7 @@
     "Parameters": [
       {
         "Name": "coinId",
-        "Type": "System.Int64",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -212,7 +212,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Coin_Exchange.Models.Modal.Order, Coin_Exchange, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Coin_Exchange.Models.Response.OrderItemDTO, Coin_Exchange, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

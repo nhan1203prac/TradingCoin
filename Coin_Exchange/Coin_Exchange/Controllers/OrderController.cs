@@ -127,7 +127,7 @@ namespace Coin_Exchange.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Order>>> getAllOrderByUserId([FromHeader(Name = "Authorization")] string jwt)
+        public async Task<ActionResult<List<OrderItemDTO>>> getAllOrderByUserId([FromHeader(Name = "Authorization")] string jwt)
         {
             string email = JwtProviders.GetEmailFromToken(jwt);
             User user = await _context.Users.FirstOrDefaultAsync((u => u.email == email));

@@ -82,8 +82,9 @@ namespace Coin_Exchange.Service
                    BuyPrice = oi.buyPrice,
                    SellPrice = oi.sellPrice,
                    Coin = oi.coin,
-                   orderType = oi.order.orderType,
+                   orderType = oi.order.orderType.ToString(),
                    price = oi.order.price,
+            
                    Timestamps = oi.order.timestamps
                })
                .ToListAsync();
