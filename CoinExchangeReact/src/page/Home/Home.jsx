@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './Chatbot.css'
 import { Button } from '@/components/ui/button'
 import AssetTable from './AssetTable'
 import StockChart from './StockChart'
@@ -7,7 +8,7 @@ import { Cross1Icon, DotIcon } from '@radix-ui/react-icons'
 import { icons, MessageCircle } from 'lucide-react'
 import { Input } from "@/components/ui/input"
 import { useDispatch, useSelector } from 'react-redux'
-// import { getCoinList, getTop50CoinList } from '@/State/Coin/Action'
+import { getCoinList, getTop50CoinList } from '@/State/Coin/Action'
 import {
     Pagination,
     PaginationContent,
@@ -17,13 +18,16 @@ import {
     PaginationNext,
     PaginationPrevious,
   } from "@/components/ui/pagination"
-  
+import axios from 'axios'
+
 
 const Home = () => {
     const [category,setCategory] = useState("all")
     const [inputValue,setInputValue] = useState("")
     const [isBotRelease, setIsBotRelease] = useState(false)
     const dispatch = useDispatch();
+    const [message,setMessage] = useState([])
+    const [isLoading, setIsLoading] = useState(false);
     const coin = useSelector(state=>state.coin)
     const handleCategory = (value)=>{
         setCategory(value)
@@ -34,10 +38,26 @@ const Home = () => {
     const handleChange = (e)=>{
         setInputValue(e.target.value)
     }
-    const handleKeyPress = (event)=>{
+    const handleKeyPress = async(event)=>{
         if(event.key=="Enter"){
             console.log(inputValue)
+            setIsLoading(true)
+            setMessage([...message,inputValue])
+            
             setInputValue("")
+            try {
+                const response = await axios.post("http://localhost:8080/ai/chat",{Prompt:inputValue})
+              
+                console.error("ChatSuccess:", response?.data);
+                setMessage(pre=>[...pre,response?.data?.message])
+            } catch (error) {
+                setMessage(pre=>[...pre,"Could not get response!"])
+                console.error("send message error:", error.response?.data || error.message);
+                
+            } finally {
+                setIsLoading(false);
+            }
+        
         }
         
     }
@@ -92,15 +112,15 @@ const Home = () => {
                     </div>
                <div>
                     <div className='flex items-center gap-2'>
-                        <p>ETH</p>
+                        <p>{coin.coinList[0].symbol.toUpperCase()}</p>
                         <DotIcon className='text-gray-400'/>
-                        <p className='text-gray-400'>Ethereum</p>    
+                        <p className='text-gray-400'>{coin.coinList[0].name}</p>    
                     </div>  
                     <div className='flex items-end gap-2'>
-                        <p className='text-xl font-bold'>5464</p>
+                        <p className='text-xl font-bold'>{coin.coinList[0].current_price}</p>
                         <p className='text-red-600'>
-                            <span>-1319049822.578</span>
-                            <span>(-0.29803%)</span>
+                            <span>{coin.coinList[0].market_cap_change_24h}</span>
+                            <span>({coin.coinList[0].market_cap_change_percentage_24h}%)</span>
                         </p>
                     </div>  
                </div>
@@ -125,20 +145,27 @@ const Home = () => {
                    </div>
 
 
-                   {[1,1,1,1].map((item,i)=>(
-                        <div className={`${i%2==0?"self-start":"self-end"} pb-5 w-auto`} key={i}>
-                            {i%2==0? <div className="justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto">
-                                    <p>prompt who are you</p>
-                                    </div>:
-                                    <div className="justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto">
-                                        <p>ans hi, Vo Thanh Nhan</p>
-                                        
+                   {message.map((item,i)=>(
+                        <div className={`${i%2!=0?"self-start":"self-end"} pb-5 w-auto`} key={i}>
+                            <div className="justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto">
+                                    <p>{item}</p>
                                     </div>
-                                    }
+                                    
 
                             
                         </div>
                    ))}
+                   {isLoading && (
+                <div className="self-start pb-5 w-auto">
+                  <div className="px-5 py-2 rounded-md bg-slate-800 w-auto">
+                    <div className="loading-dots">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              )}
                 </div>
                 <div className="h-[12%] border-t">
                     <Input className="w-full h-full border-none outline-none" placeholder="write prompt"

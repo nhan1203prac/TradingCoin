@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-// import { fetchMarketChart } from '@/State/Coin/Action'
+import { fetchMarketChart } from '@/State/Coin/Action'
 import { Stethoscope } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import ReactApexChart from 'react-apexcharts'

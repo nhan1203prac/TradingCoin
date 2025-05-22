@@ -12,6 +12,9 @@ import Auth from './page/auth/Auth'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getUser } from './State/Auth/Action'
+import Portfolio from './page/Portfolio/Portfolio'
+import WatchList from './page/WatchList/WatchList'
+import Activity from './page/Activity/Activity'
 
 function App() {
   const auth = useSelector(state => state.auth);
@@ -32,19 +35,19 @@ console.log("user---",auth.jwt)
     <>
     
    
-      {true ? <div>
+      {auth.user ? <div>
         <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        {/* <Route path='/portfolio' element={<Portfolio/>} />
+        <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/activity' element={<Activity/>} />
-        <Route path='/wallet' element={<Wallet/>} />
-        <Route path='/withdrawal' element={<Withdrawal/>} />
-        <Route path='/payment-details' element={<PaymentDetails/>} />
-        <Route path='/market/:id' element={<StockDetails/>} />
+        {/* <Route path='/wallet' element={<Wallet/>} /> */}
+        {/* <Route path='/withdrawal' element={<Withdrawal/>} /> */}
+        {/* <Route path='/payment-details' element={<PaymentDetails/>} /> */}
+        {/* <Route path='/market/:id' element={<StockDetails/>} /> */}
         <Route path='/watchlist' element={<WatchList/>} />
-        <Route path='/profile' element={<Profile/>} />
-        <Route path='/search' element={<SearchCoin/>} /> */}
+        {/* <Route path='/profile' element={<Profile/>} /> */}
+        {/* <Route path='/search' element={<SearchCoin/>} /> */}
         <Route path='*' element={<Notfound/>} />
 
 
