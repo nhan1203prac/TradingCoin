@@ -29,8 +29,8 @@ export const login = (userData)=>async(dispatch)=>{
         const user = response.data
         console.log("User JWT:", user.jwt);
         dispatch({type:LOGIN_SUCCESS,payload:user.jwt})
-        localStorage.setItem("jwt",user.jwt)
-        userData.navigate("/")
+       
+        return response.data;
     }catch(error){
 
         dispatch({type:LOGIN_FAILURE,payload:error.message})

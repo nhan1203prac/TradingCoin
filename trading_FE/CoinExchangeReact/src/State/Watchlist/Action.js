@@ -28,7 +28,7 @@ export const addItemToWatchlist = ({coinId,jwt})=>async(dispatch)=>{
             }
         })
         dispatch({type:ADD_COIN_TO_WATCHLIST_SUCCESS,payload:response.data})
-        console.log("watchlist", response.data)
+        console.log("watchlist add", response.data)
     } catch (error) {
         console.log("error", error)
         dispatch({type:ADD_COIN_TO_WATCHLIST_FAILURE,payload:error.message})

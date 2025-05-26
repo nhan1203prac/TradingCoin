@@ -19,40 +19,43 @@ namespace Coin_Exchange.Controllers
         }
 
         [HttpGet("user")]
-        public async Task<ActionResult<UserWatchlistResponse>> GetUserWatchlist([FromHeader(Name = "Authorization")] string jwt)
+        public async Task<ActionResult<List<Coin>>> GetUserWatchlist([FromHeader(Name = "Authorization")] string jwt)
         {
-
-            string email = JwtProviders.GetEmailFromToken(jwt);
-
-
-            User user = await _context.Users.FirstOrDefaultAsync(u => u.email == email);
-            if (user == null)
+            try
             {
-                return NotFound("User not found.");
+                string email = JwtProviders.GetEmailFromToken(jwt);
+                User user = await _context.Users.FirstOrDefaultAsync(u => u.email == email);
+                if (user == null)
+                {
+                    return NotFound("User not found.");
+                }
+
+                Watchlist watchlist = await _context.Watchlists
+                    .Include(w => w.WatchlistCoins)
+                        .ThenInclude(wc => wc.Coin)
+                    .FirstOrDefaultAsync(w => w.userId == user.id);
+
+
+                if (watchlist == null || watchlist.WatchlistCoins == null || !watchlist.WatchlistCoins.Any())
+                {
+                    return Ok(new List<Coin>());
+                }
+
+
+                List<Coin> userCoins = watchlist.WatchlistCoins
+                                                .Where(wc => wc.Coin != null)
+                                                .Select(wc => wc.Coin)
+                                                .ToList();
+
+
+                return Ok(userCoins);
             }
-
-
-            Watchlist watchlist = await _context.Watchlists
-                .Include(w => w.WatchlistCoins)
-                    .ThenInclude(wc => wc.Coin)
-                .FirstOrDefaultAsync(w => w.userId == user.id);
-
-            if (watchlist == null)
+            catch (Exception ex)
             {
-                return NotFound("Watchlist not found.");
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex.Message}");
             }
-
-
-            UserWatchlistResponse userWatchlistResponse = new UserWatchlistResponse
-            {
-                user = user,
-                watchlistId = watchlist.id,
-                WatchlistCoins = watchlist.WatchlistCoins
-            };
-
-
-            return Ok(userWatchlistResponse);
         }
+
 
 
         [HttpPost("create")]

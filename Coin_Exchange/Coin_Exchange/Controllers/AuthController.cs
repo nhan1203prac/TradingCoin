@@ -38,7 +38,8 @@ namespace Coin_Exchange.Controllers
             AuthResponse authResponse = new AuthResponse
             {
                 jwt = token,
-                message = "Login success"
+                message = "Login success",
+               
 
             };
             if (user.IsEnable2FA)
@@ -62,8 +63,9 @@ namespace Coin_Exchange.Controllers
                 authResponse.session = newTwoFactor.id;
 
                 OtpUntil.SendVerificationOtpEmail(request.email, otp);
-
+               
             }
+
 
 
 
@@ -87,7 +89,7 @@ namespace Coin_Exchange.Controllers
                 email = request.email,
                 password = request.password,
             };
-
+            
 
             _context.Users.Add(newUser);
             await _context.SaveChangesAsync();
@@ -114,7 +116,8 @@ namespace Coin_Exchange.Controllers
             AuthResponse authResponse = new AuthResponse
             {
                 jwt = token,
-                message = "Register success"
+                message = "Register success",
+                
 
             };
 
