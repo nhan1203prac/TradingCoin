@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { SheetClose } from '@/components/ui/sheet'
 import { ActivityLogIcon, BookmarkIcon, DashboardIcon, ExitIcon, HomeIcon, PersonIcon } from '@radix-ui/react-icons'
-import { CreditCardIcon, LandmarkIcon, WalletIcon } from 'lucide-react'
+import { CreditCardIcon, LandmarkIcon, SettingsIcon, WalletIcon } from 'lucide-react'
 import './Sidebar.css'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
@@ -9,6 +9,7 @@ import { useDispatch } from 'react-redux'
 import { logout } from '@/State/Auth/Action'
 
 const menu=[
+  {name:"Admin proceed",path:"/admin/withdrawal",icon:<SettingsIcon className='h-6 w-6'/>},
   {name:"Home",path:"/",icon:<HomeIcon className='h-6 w-6'/>},
   {name:"Portfolio",path:"/portfolio",icon:<DashboardIcon className='h-6 w-6'/>},
   {name:"Watchlist",path:"/watchlist",icon:<BookmarkIcon className='h-6 w-6'/>},

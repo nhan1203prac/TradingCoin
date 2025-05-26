@@ -42,7 +42,7 @@ const StockDetails = () => {
     dispatch(getUserWatchlist({ jwt: localStorage.getItem("jwt") }));
   }, [dispatch]);
 
-  const coinInWatchlist = ExitCoinInWatchlist(watchlist.items, data || coin.coinDetails);
+  const coinInWatchlist = ExitCoinInWatchlist(watchlist.items || [], data || coin.coinDetails);
 
   const handleAddToWatchlist = () => {
     dispatch(addItemToWatchlist({ coinId: data?.id || coin.coinDetails?.id, jwt: localStorage.getItem("jwt") }));
@@ -53,7 +53,7 @@ const StockDetails = () => {
       <div className="flex justify-between">
         <div className="flex gap-5 items-center">
           <Avatar>
-            <AvatarImage src={data?.image || coin.coinDetails?.image?.large || ''} />
+            <AvatarImage src={data?.image || coin.coinDetails?.image || ''} />
           </Avatar>
           <div>
             <div className="flex items-center gap-2">
@@ -62,9 +62,9 @@ const StockDetails = () => {
               <p className='text-gray-400'>{data?.name || coin.coinDetails?.name}</p>
             </div>
             <div className="flex items-center gap-2">
-              <p className='text-xl font-bold'>${data?.current_price || coin.coinDetails?.market_data?.current_price?.usd}</p>
+              <p className='text-xl font-bold'>${data?.current_price || coin.coinDetails?.current_price}</p>
               <span className='text-red-600'>
-                <span>{data?.market_cap_change_24h || coin.coinDetails?.market_data?.market_cap_change_24h}</span>
+                <span>{data?.market_cap_change_24h || coin.coinDetails?.market_cap_change_24h}</span>
                 <span>({data?.market_cap_change_percentage_24h || coin.coinDetails?.market_data?.market_cap_change_percentage_24h}%)</span>
               </span>
             </div>

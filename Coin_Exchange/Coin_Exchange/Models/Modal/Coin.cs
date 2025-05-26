@@ -51,6 +51,6 @@ namespace Coin_Exchange.Models.Modal
         [JsonPropertyName("market_cap_change_percentage_24h")]
         public double marketCapChangePercentage24h { get; set; }
 
-        public List<WatchlistCoin> WatchlistCoins { get; set; } = new List<WatchlistCoin>();
+    
     }
 }
