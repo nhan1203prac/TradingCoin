@@ -1,5 +1,5 @@
 export const CalculateProfile = (order)=>{
     if(order&&order?.buyPrice&&order?.sellPrice)
-        return order?.sellPrice-order?.buyPrice
+        return order.orderItem?.sellPrice-order.orderItem?.buyPrice
     return '-'
 }

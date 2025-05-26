@@ -42,11 +42,11 @@ const AssetTable = ({coin,category}) => {
         <span>{item.name}</span>
       </TableCell>
       <TableCell>{item.symbol}</TableCell>
-      <TableCell>{item.totalVolume}</TableCell>
-      <TableCell>{item.marketCap}</TableCell>
-      <TableCell>{item.priceChangePercentage24h}</TableCell>
+      <TableCell>{item.total_volume}</TableCell>
+      <TableCell>{item.market_cap}</TableCell>
+      <TableCell>{item.price_change_percentage_24h}</TableCell>
 
-      <TableCell className="text-right">${item.currentPrice}</TableCell>
+      <TableCell className="text-right">${item.current_price}</TableCell>
     </TableRow>)
         
     }

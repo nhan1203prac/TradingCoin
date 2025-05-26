@@ -15,7 +15,6 @@ import { DialogClose } from '@/components/ui/dialog'
 import { useDispatch } from 'react-redux'
 import { register } from '@/State/Auth/Action'
 import { useNavigate } from 'react-router-dom'
-import { toast,ToastContainer } from "react-toastify";
 const SignupForm = () => {
     const form = useForm({
         resolver:"",
@@ -28,20 +27,13 @@ const SignupForm = () => {
     })
     const navigate = useNavigate()
     const dispatch = useDispatch()
-    const onSubmit = async (data) => {
-      try {
-        await dispatch(register(data)); 
-        toast.success("Registration successful!");
-        // navigate('/login'); 
-      } catch (error) {
-        toast.error("Registration failed. Please try again.");
-        console.error(error);
-      }
-    };
+    const onSubmit = (data)=>{
+        dispatch(register({data,navigate}))
+        console.log(data)
+    }
 
   return (
     <div className='px-10 max-h-[90vh]' >
-      <ToastContainer position="top-right" />
         <h1 className='text-xl font-bold text-center pb-3'>Create New Account</h1>
         <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-6'>

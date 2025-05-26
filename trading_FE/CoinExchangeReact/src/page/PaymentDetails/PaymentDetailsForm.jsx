@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import {
     Form,
@@ -15,19 +15,54 @@ import { Button } from '@/components/ui/button'
 import { DialogClose } from '@/components/ui/dialog'
 import { useDispatch } from 'react-redux'
 import { addPaymentDetails } from '@/State/Withdrawal/Action'
+import { z } from 'zod'
+import { zodResolver } from "@hookform/resolvers/zod";
   
-const PaymentDetailsForm = () => {
+const formSchema = z.object({
+  accountHolderName: z.string().min(2, { message: "Account holder name must be at least 2 characters." }),
+  ifsc: z.string().min(3, { message: "IFSC code is required." }), // Thêm validation nếu cần
+  bankName: z.string().min(2, { message: "Bank name is required." }),
+  accountNumber: z.string().min(5, { message: "Account number is required." }),
+  // Thêm confirmAccountNumber nếu bạn muốn validate nó
+  confirmAccountNumber: z.string()
+}).refine((data) => data.accountNumber === data.confirmAccountNumber, {
+  message: "Account numbers don't match",
+  path: ["confirmAccountNumber"], // Báo lỗi ở trường confirm
+});
+const PaymentDetailsForm = ({existingDetails}) => {
   const dispatch = useDispatch()
 
     const form = useForm({
-        resolver:"",
+        resolver:zodResolver(formSchema),
         defaultValues:{
             accountHolderName:"",
             ifsc:"",
             accountNumber:"",
+            confirmAccountNumber: "",
             bankName:""
         }
     })
+
+    useEffect(()=>{
+      if (existingDetails) {
+      form.reset({
+        accountHolderName: existingDetails.accountHolderName,
+        ifsc: existingDetails.ifsc,
+        accountNumber: existingDetails.accountNumber,
+        bankName: existingDetails.bankName,
+        confirmAccountNumber: existingDetails.accountNumber // Tự điền confirm khi edit
+      });
+    } else {
+      // Nếu không có (chế độ Add), reset về rỗng
+      form.reset({
+        accountHolderName: "",
+        ifsc: "",
+        accountNumber: "",
+        confirmAccountNumber: "",
+        bankName: ""
+      });
+    }
+    },[existingDetails])
     const onSubmit = (data)=>{
         dispatch(addPaymentDetails({paymentDetail:data,jwt:localStorage.getItem("jwt")}))
         console.log(data)
@@ -112,9 +147,11 @@ const PaymentDetailsForm = () => {
             </FormItem>
           )}
         />
-        <DialogClose className='w-full' type="submit">
-            Submit
-        </DialogClose>
+          <DialogClose asChild>
+            <Button type="submit" className='w-full'>
+                Submit
+            </Button>
+          </DialogClose>
         
             </form>
         </Form>

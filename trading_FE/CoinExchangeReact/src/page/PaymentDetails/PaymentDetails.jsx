@@ -25,9 +25,9 @@ const PaymentDetails = () => {
   return (
     <div className='px-20'>
         <h1 className='text-3xl font-bold py-10'>Payment Details</h1>
-        
-        
-        <Card className = "mb-5">
+        {withdrawal.paymentDetails?
+        <div>
+        <Card>
             <CardHeader>
                 <CardTitle>
                     {withdrawal.paymentDetails?.bankName
@@ -50,7 +50,21 @@ const PaymentDetails = () => {
               </div>
             </CardContent>
         </Card>
+        <Dialog>
+          <DialogTrigger>
+            Change payment details
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Update Payment Details</DialogTitle>
+              
+            </DialogHeader>
+            <PaymentDetailsForm existingDetails={withdrawal.paymentDetails}/>
+          </DialogContent>
+        </Dialog>
+        </div>
         
+        :
 
             <Dialog>
       <DialogTrigger>
@@ -64,7 +78,7 @@ const PaymentDetails = () => {
         <PaymentDetailsForm/>
       </DialogContent>
     </Dialog>
-
+}
     </div>
   )
 }
