@@ -105,7 +105,7 @@ const Wallet = () => {
                               <DialogHeader>
                                 <DialogTitle>Request Withdrawal</DialogTitle>
                               </DialogHeader>
-                              <WithdrawalForm/>
+                              <WithdrawalForm />
                           </DialogContent>
                       </Dialog>
                       <Dialog>
@@ -130,7 +130,7 @@ const Wallet = () => {
             <div className="py-5 mt-10">
                 <div className="flex gap-2 items-center pb-5">
                     <h1 className='text-2xl font-semibold'>History</h1>
-                    <UpdateIcon onClick={handleFetchWalletTransaction} className='h-7 w-7 p-0 cursor-pointer hover:text-gray-400'/>
+                    <UpdateIcon className='h-7 w-7 p-0 cursor-pointer hover:text-gray-400'/>
                 </div>
 
                 <div className="space-y-5">
@@ -138,19 +138,19 @@ const Wallet = () => {
                       <div className="">
                       <Card className=" px-5 flex justify-between items-center">
                         <div className='flex items-center gap-5'> 
-                          <Avatar  className="flex flex-col justify-center items-center cursor-pointer hover:bg-slate-600">
+                          <Avatar onClick={handleFetchWalletTransaction} className="flex flex-col justify-center items-center cursor-pointer hover:bg-slate-600">
                               <AvatarFallback>
                                   <ShuffleIcon className='h-7 w-7' />
                               </AvatarFallback>
                           </Avatar>
 
                           <div className="space-y-1">
-                              <h3>{item.walletTransactionType==0?"WITHDRAWAL":item.walletTransactionType==1?"WALLET_TRANSFER":"ADD_MONEY"}</h3>
+                              <h3>{item.walletTransactionType==1?"WALLET_TRANSFER":item.walletTransactionType==2?"ADD_MONEY":"WITHDRAWAL"}</h3>
                               <p className='text-sm text-gray-500'>{item.datel}</p>
                           </div>
                           </div>
                           <div className="">
-                            <p className={`${item.walletTransactionType==0 || item.walletTransactionType==1?'text-red-500':'text-green-500'} `}>{item.amount} USD</p>
+                            <p className={` text-green-500`}>{item.amount} USD</p>
                           </div>
                       </Card>
                   </div>
