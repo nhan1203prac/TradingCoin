@@ -52,7 +52,7 @@ namespace Coin_Exchange.Controllers
 
             return Ok(coin);
         }
-        [HttpGet("/{coinId}")]
+        [HttpGet("{coinId}")]
         public async Task<ActionResult<AuthResponse>> getCoinById(string coinId)
         {
 

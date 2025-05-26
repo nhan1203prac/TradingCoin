@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Coin_Exchange.Controllers
 {
+    [Route("api")]
+    [ApiController]
     public class PaymentController:ControllerBase
     {
         private readonly ApplicationDbContext _context;
