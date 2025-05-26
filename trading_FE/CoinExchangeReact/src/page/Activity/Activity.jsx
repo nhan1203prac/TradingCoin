@@ -54,7 +54,7 @@ const Activity = () => {
       </TableCell>
       <TableCell>${item.buyPrice}</TableCell>
       <TableCell>${item.sellPrice}</TableCell>
-      <TableCell>{item.orderType}</TableCell>
+      <TableCell>{item.orderType==1?"BUY":"SELL"}</TableCell>
 
       <TableCell className="">{CalculateProfile(item)}</TableCell>
       <TableCell className="text-right">

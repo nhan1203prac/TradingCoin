@@ -11,7 +11,7 @@ export const register = (userData)=>async(dispatch)=>{
         const user = response.data
         console.log(user)
         dispatch({type:REGISTER_SUCCESS,payload:user.jwt})
-        localStorage.setItem("jwt",user.jwt)
+        // localStorage.setItem("jwt",user.jwt)
 
     }catch(error){
 
@@ -20,23 +20,33 @@ export const register = (userData)=>async(dispatch)=>{
     }
 }
 
-export const login = (userData)=>async(dispatch)=>{
-    dispatch({type:LOGIN_REQUEST})
-    const baseUrl = "http://localhost:8080"
+export const login = (userData) => async (dispatch) => {
+    dispatch({ type: LOGIN_REQUEST });
+    const baseUrl = "http://localhost:8080";
 
-    try{
-        const response = await axios.post(`${baseUrl}/auth/signin`,userData.data)
-        const user = response.data
+    try {
+        const response = await axios.post(`${baseUrl}/auth/signin`, userData.data);
+        const user = response.data;
         console.log("User JWT:", user.jwt);
-        dispatch({type:LOGIN_SUCCESS,payload:user.jwt})
-        localStorage.setItem("jwt",user.jwt)
-        userData.navigate("/")
-    }catch(error){
 
-        dispatch({type:LOGIN_FAILURE,payload:error.message})
-        console.log(error)
+        dispatch({ type: LOGIN_SUCCESS, payload: user.jwt });
+
+        // Store JWT in localStorage
+        
+        // Navigate to the desired route
+        
+
+        // Return the user data
+        return response.data; // This is critical for the frontend to access the response
+    } catch (error) {
+        dispatch({ type: LOGIN_FAILURE, payload: error.message });
+        console.log(error);
+
+        // Rethrow the error so the frontend can handle it
+        throw error;
     }
-}
+};
+
 
 
 export const getUser = (jwt)=>async(dispatch)=>{

@@ -13,65 +13,56 @@ import {
 import { Button } from '@/components/ui/button'
 import { DialogClose } from '@/components/ui/dialog'
 import { useDispatch } from 'react-redux'
-import { register } from '@/State/Auth/Action'
-import { useNavigate } from 'react-router-dom'
+import { login } from '@/State/Auth/Action'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { toast,ToastContainer } from "react-toastify";
-const SignupForm = () => {
+import axios from 'axios'
+const UpdatePassword = () => {
     const form = useForm({
         resolver:"",
         defaultValues:{
-            fullName:"",
-            email:"",
-            password:"",
+            
+          password:"",
+          confirmPassword:"",
            
         }
     })
+    const location = useLocation();
+    const email = location.state?.email;
     const navigate = useNavigate()
     const dispatch = useDispatch()
+  
+
     const onSubmit = async (data) => {
+      const baseUrl = "http://localhost:8080/api";
       try {
-        await dispatch(register(data)); 
-        toast.success("Registration successful!");
-        // navigate('/login'); 
+        console.log("data", email); 
+        const response = await axios.patch(
+          `${baseUrl}/user/update-password`,
+          { password:data.password, confirmPassword:data.confirmPassword, email:email },
+          {
+            headers: {
+              "Content-Type": "application/json", 
+            },
+          }
+        );
+    
+        
+        console.log("update password success:", response.data);
+        navigate("/signin")
+        toast.success("Update password successfully!");
       } catch (error) {
-        toast.error("Registration failed. Please try again.");
-        console.error(error);
+        console.error("Failed to update:", error.response?.data || error.message);
+        toast.error("Failed to update");
       }
     };
-
   return (
     <div className='px-10 max-h-[90vh]' >
-      <ToastContainer position="top-right" />
-        <h1 className='text-xl font-bold text-center pb-3'>Create New Account</h1>
+        <h1 className='text-xl font-bold text-center pb-3'>Update Password</h1>
+        <ToastContainer position="top-right" />
         <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-6'>
-            <FormField
-          control={form.control}
-          name="fullName"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Input name="fullName" placeholder="FullName" {...field} className="border w-full border-gray-700 p-5"/>
-              </FormControl>
-              
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-
-<FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Input name="email" placeholder="Email" {...field} className="border w-full border-gray-700 p-5"/>
-              </FormControl>
-              
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+           
 
 <FormField
           control={form.control}
@@ -79,7 +70,21 @@ const SignupForm = () => {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input placeholder="Password" {...field} className="border w-full border-gray-700 p-5"/>
+                <Input name="password" placeholder="Password" {...field} className="border w-full border-gray-700 p-5"/>
+              </FormControl>
+              
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+<FormField
+          control={form.control}
+          name="confirmPassword"
+          render={({ field }) => (
+            <FormItem>
+              <FormControl>
+                <Input placeholder="ConfirmPassword" {...field} className="border w-full border-gray-700 p-5"/>
               </FormControl>
               
               <FormMessage />
@@ -99,4 +104,5 @@ const SignupForm = () => {
   )
 }
 
-export default SignupForm
+
+export default UpdatePassword

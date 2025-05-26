@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { useLocation, useNavigate } from "react-router-dom"
 import ForgotPasswordForm from "./ForgotPasswordForm"
 import SigninForm from "./SigninForm"
+import UpdatePassword from "./UpdatePassword"
 const Auth = () => {
   const navigate = useNavigate();
   const localtion = useLocation();
@@ -29,6 +30,17 @@ const Auth = () => {
                     <span>Back to login</span>
                     <Button variant="ghost" onClick={()=>navigate("/signin")} className="bg-transparent outline-none text-white">Signin</Button>
                 </div>
+                </section>
+              ):localtion.pathname == "/update-password"?
+              (
+                <section  className="w-full">
+                  <UpdatePassword/>
+                  <div className="flex items-center justify-center">
+                    <span>SignIn</span>
+                    <Button variant="ghost" onClick={()=>navigate("/signin")} className="bg-transparent outline-none text-white" >Signup</Button>
+                </div>
+
+                
                 </section>
               ):(
                 <section  className="w-full">

@@ -27,6 +27,8 @@ export const getAssetDetails = ({coinId,jwt})=>async(dispatch)=>{
     const baseUrl = "http://localhost:8080"
 
     try{
+        console.log("coinId", coinId)
+        console.log("jwt", jwt)
         const response = await axios.get(`${baseUrl}/api/assets/coin/${coinId}/user`,{
             headers:{
                 Authorization: `Bearer ${jwt}`

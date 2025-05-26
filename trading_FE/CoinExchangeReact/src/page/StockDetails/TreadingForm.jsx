@@ -8,6 +8,7 @@ import { getAssetDetails } from '@/State/Asset/Action'
 import { getUserWallet } from '@/State/Wallet/Action'
 import { payOrder } from '@/State/Order/Action'
 import { SheetClose } from '@/components/ui/sheet'
+import { ToastContainer } from 'react-toastify'
 const TreadingForm = ({data}) => {
   const [orderType,setOrderType] = useState("BUY")
   const [quantity,setQuantity] = useState(0)
@@ -23,7 +24,7 @@ const TreadingForm = ({data}) => {
   const handleChange = (e)=>{
     const amount = e.target.value
     setAmount(amount)
-    const volume = calculateByCost(amount,data.current_price || coin.coinDetails.market_data.current_price.usd)
+    const volume = calculateByCost(amount,data.currentPrice || coin.coinDetails.currentPrice)
     setQuantity(volume)
   }
 
@@ -40,10 +41,13 @@ const TreadingForm = ({data}) => {
       orderType
     },amount
   }))
+  
   }
+  console.log("trading coin", coin)
   return (
     <div className='space-y-10  pt-2' >
         <div className='w-full'>
+         
             <div className='flex gap-2 items-center justify-between'>
                 <Input className="py-7 focus:outline-none flex-1 " 
                 placeholder="Enter Amount..."
@@ -64,7 +68,7 @@ const TreadingForm = ({data}) => {
         <div className="flex gap-5 items-center">
                 <div className="">
                     <Avatar>
-                        <AvatarImage src={data?.image || coin.coinDetails?.image?.large || ''} />
+                        <AvatarImage src={data?.image || coin.coinDetails?.image || ''} />
                     </Avatar>
                 </div>
                 <div>
@@ -74,11 +78,11 @@ const TreadingForm = ({data}) => {
                         <p className='text-gray-400'>{data?.name || coin.coinDetails?.name}</p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <p className='text-xl font-bold'>${data?.current_price || coin.coinDetails.market_data.current_price.usd}</p>
+                        <p className='text-xl font-bold'>${data?.currentPrice || coin.coinDetails.currentPrice}</p>
                         <p>
                           <span className='text-red-600'>
-                              <span>{data?.market_cap_change_24h || coin.coinDetails?.market_data?.market_cap_change_24h}</span>
-                              <span>({data?.market_cap_change_percentage_24h || coin.coinDetails?.market_data?.market_cap_change_percentage_24h}%)</span>
+                              <span>{data?.marketCapChange24h || coin.coinDetails?.marketData?.marketCapChange24h}</span>
+                              <span>({data?.marketCapChangePercentage24h || coin.coinDetails?.marketData?.marketCapChangePercentage24h}%)</span>
                           </span>
                         </p>
                     </div>
@@ -96,9 +100,9 @@ const TreadingForm = ({data}) => {
                   <p>{orderType=="BUY"?"$"+wallet.userWallet?.balance:asset.assetDetails?.quantity||0}</p>
                 </div>
                 <div>
-                    <SheetClose onClick={handleBuyCrypto} className={`w-full  py-6 ${orderType=="SELL"?"bg-red-600 text-white":""}`}>
+                    <Button onClick={handleBuyCrypto} className={`w-full  py-6 ${orderType=="SELL"?"bg-red-600 text-white":""}`}>
                     {orderType}
-                    </SheetClose>
+                    </Button>
                     <Button variant="links" className="w-full mt-5 text-xl" onClick={()=>setOrderType(orderType=='BUY'?'SELL':'BUY')}>
                       {orderType=='SELL'?'Or BUY':'Or SELL'}
                     </Button>

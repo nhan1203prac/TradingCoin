@@ -22,7 +22,7 @@ const watchlistReducer = (state=init,action)=>{
             return{
                 ...state,
                 watchlist:action.payload,
-                items:action.payload.coins,
+                items:action.payload.watchlistCoins,
                 loading:false,
                 error:null
             }
