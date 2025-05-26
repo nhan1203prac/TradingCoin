@@ -1,12 +1,10 @@
 import axios from "axios"
 import { GET_ALL_ORDERS_FAILURE, GET_ALL_ORDERS_REQUEST, GET_ALL_ORDERS_SUCCESS, GET_ORDER_REQUEST, GET_ORDER_SUCCESS, PAY_ORDER_FAILURE, PAY_ORDER_REQUEST, PAY_ORDER_SUCCESS } from "./ActionType"
 
-
 export const payOrder = ({jwt,orderData,amount})=>async(dispatch)=>{
     dispatch({type:PAY_ORDER_REQUEST})
 
     try {
-        console.log("orderData", orderData)
         const res = await axios.post("http://localhost:8080/api/orders/pay",orderData,{
             headers:{
                 Authorization: `Bearer ${jwt}`
@@ -14,12 +12,10 @@ export const payOrder = ({jwt,orderData,amount})=>async(dispatch)=>{
             
         })
         dispatch({type:PAY_ORDER_SUCCESS,payload:res.data})
-        
         console.log("order success",res.data)
     } catch (error) {
         console.log("error", error)
-        
-        dispatch({type:PAY_ORDER_FAILURE,payload:error.message})
+        dispatch({type:PAY_ORDER_FAILURE,payload:res.data})
     }
 }
 

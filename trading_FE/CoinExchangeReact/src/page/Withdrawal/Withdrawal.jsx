@@ -29,6 +29,7 @@ const Withdrawal = () => {
   <TableHeader>
     <TableRow>
       <TableHead className="py-5">Date</TableHead>
+      <TableHead className>Email</TableHead>
       <TableHead>Method</TableHead>
       <TableHead>Amount</TableHead>
       
@@ -41,7 +42,9 @@ const Withdrawal = () => {
         <p>{item.date.toString()}</p>
        
       </TableCell>
-      
+      <TableCell>
+        {item.user.email}
+      </TableCell>
       <TableCell>Bank</TableCell>
      
 

@@ -44,12 +44,12 @@ const Portfolio = () => {
         </TableCell>
         <TableCell>{item.coin.symbol.toUpperCase()}</TableCell>
         <TableCell>{item.quantity}</TableCell>
-        <TableCell>{item.coin.priceChange24h}</TableCell>
+        <TableCell>{item.coin.price_change_24h}</TableCell>
         <TableCell>
-          {item.coin.priceChangePercentage24h}%
+          {item.coin.price_change_percentage_24h}%
         </TableCell>
   
-        <TableCell className="text-right">{item.coin.totalVolume}</TableCell>
+        <TableCell className="text-right">{item.coin.total_volume}</TableCell>
       </TableRow>)
           
       }
