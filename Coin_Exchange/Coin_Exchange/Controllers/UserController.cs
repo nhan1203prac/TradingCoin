@@ -72,30 +72,40 @@ namespace Coin_Exchange.Controllers
         }
 
 
+
         [HttpPost("user/enable-two-factor/verify/{otp}")]
         public async Task<ActionResult<ApiResponse>> verifyOtp(string otp, [FromQuery] string id)
         {
-            TwoFactorOtp twoFactorOtp = await _context.TwoFactorOtps.FirstOrDefaultAsync(u => u.id == id);
+            TwoFactorOtp twoFactorOtp = await _context.TwoFactorOtps
+                                                      .Include(t => t.user)
+                                                      .FirstOrDefaultAsync(u => u.id == id);
+
+            if (twoFactorOtp == null)
+            {
+                return BadRequest(new ApiResponse { message = "Invalid or expired OTP session", status = false });
+            }
+
+            if (twoFactorOtp.user == null)
+            {
+                return StatusCode(500, new ApiResponse { message = "Internal error: User not found for OTP", status = false });
+            }
+
             Boolean verify = twoFactorOtp.otp == otp;
+
             if (verify)
             {
-                User user = await _context.Users.FirstOrDefaultAsync(u => u.id == twoFactorOtp.user.id);
-                if (!user.IsEnable2FA)
-                {
-                    user.IsEnable2FA = true;
-                }
-                else
-                {
-                    user.IsEnable2FA = false;
-                }
+                User user = twoFactorOtp.user;
+
+                user.IsEnable2FA = !user.IsEnable2FA;
+
+                _context.TwoFactorOtps.Remove(twoFactorOtp);
+
                 await _context.SaveChangesAsync();
 
-
-                return Ok(new ApiResponse { message = "Change status success", status = true });
+                return Ok(new ApiResponse { message = "Two-factor authentication status changed", status = true });
             }
 
             return BadRequest(new ApiResponse { message = "Invalid otp", status = false });
-
         }
 
         [HttpPatch("user/update-password")]

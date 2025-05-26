@@ -41,10 +41,10 @@ const AccountVerificationForm = ({ onVerificationSuccess }) => {
                     onVerificationSuccess(); 
                   }    
             console.log("OTP verified successfully:", response.data);
-            // toast.success("OTP verified successfully!", { position: toast.POSITION.TOP_RIGHT });
+            toast.success("OTP verified successfully!", { position: toast.POSITION.TOP_RIGHT });
         } catch (error) {
             console.error("Failed to verify OTP:", error.response?.data || error.message);
-            // toast.error("Failed to verify OTP", { position: toast.POSITION.TOP_RIGHT });
+            toast.error("Failed to verify OTP", { position: toast.POSITION.TOP_RIGHT });
         }
     };
 

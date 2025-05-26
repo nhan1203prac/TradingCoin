@@ -56,51 +56,55 @@ const SigninForm = () => {
         console.log("response",response.isTwoFatorAuthEnabled)
         if (response.isTwoFatorAuthEnabled) {
           setShowOtpDialog(true);
-          sendOtp(data.email)  
+          // sendOtp(data.email)
+          setSession(response.session);
+         
         }
         else{
-          navigate("/");
+          localStorage.setItem("jwt",response.jwt)  
+          navigate("/")
+          window.location.reload();    
         }
       } catch (error) {
         console.error("Login error:", error);
       }
         
     }
-    const sendOtp = async (email) => {
-      const baseUrl = "http://localhost:8080/auth";
-      try {
-        console.log("email", email); 
+    // const sendOtp = async (email) => {
+    //   const baseUrl = "http://localhost:8080/auth";
+    //   try {
+    //     console.log("email", email); 
        
-        const response = await axios.post(
-          `${baseUrl}/reset-password/send-otp`,
-          { sendTo:email },
-          {
-            headers: {
-              "Content-Type": "application/json", // Xác định loại dữ liệu gửi đi
-            },
-          }
-        );
+    //     const response = await axios.post(
+    //       `${baseUrl}/reset-password/send-otp`,
+    //       { sendTo:email },
+    //       {
+    //         headers: {
+    //           "Content-Type": "application/json", // Xác định loại dữ liệu gửi đi
+    //         },
+    //       }
+    //     );
     
-        setSession(response.data.session);
-        console.log("send otp success:", response.data);
-        // toast.success("OTP sent successfully!", { position: toast.POSITION.TOP_RIGHT });
-      } catch (error) {
-        console.error("Failed to send OTP:", error.response?.data || error.message);
-        toast.error("Failed to verify OTP");
-      }
-    };
+    //     setSession(response.data.session);
+    //     console.log("send otp success:", response.data);
+    //     // toast.success("OTP sent successfully!", { position: toast.POSITION.TOP_RIGHT });
+    //   } catch (error) {
+    //     console.error("Failed to send OTP:", error.response?.data || error.message);
+    //     toast.error("Failed to verify OTP");
+    //   }
+    // };
     const verifyOtp = async()=>{
       const baseUrl = "http://localhost:8080/auth";
           try {
               const response = await axios.post(
-                  `${baseUrl}/reset-password/verify-otp/${value}?id=${session}`,
+                  `${baseUrl}/two-factor/otp/${value}?id=${session}`,
                   null);
   
               setShowOtpDialog(false)
               console.log("verify otp success:", response.data);
               localStorage.setItem("jwt", jwt);
+              navigate("/")
               window.location.reload();    
-              // navigate("/")
               // toast.success("OTP verified successfully!", { position: toast.POSITION.TOP_RIGHT });
           } catch (error) {
               console.error("Failed to send OTP:", error.response?.data || error.message);

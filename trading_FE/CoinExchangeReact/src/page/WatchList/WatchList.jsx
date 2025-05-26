@@ -48,7 +48,7 @@ const WatchList = () => {
     </TableRow>
   </TableHeader>
   <TableBody>
-    {watchlist.items.map((item,index)=><TableRow key={index}>
+    {watchlist.items?.map((item,index)=><TableRow key={index}>
       <TableCell className="font-medium flex items-center gap-2">
         <Avatar className='z-50'>
             <AvatarImage src={item.image} className="w-[35px]"/>
@@ -56,11 +56,11 @@ const WatchList = () => {
         <span>{item.name}</span>
       </TableCell>
       <TableCell>{item.symbol.toUpperCase()}</TableCell>
-      <TableCell>{item.totalVolume}</TableCell>
-      <TableCell>{item.marketCap}</TableCell>
-      <TableCell>{item.priceChangePercentage24h}</TableCell>
+      <TableCell>{item.total_volume}</TableCell>
+      <TableCell>{item.market_cap}</TableCell>
+      <TableCell>{item.price_change_percentage_24h}</TableCell>
 
-      <TableCell className="">${item.currentPrice}</TableCell>
+      <TableCell className="">${item.current_price}</TableCell>
       <TableCell className="text-right">
         <Button variant="outline" size="icon" className="text-white" onClick={()=>handleRemoveToWatchlist(item)}>
             <BookmarkFilledIcon/>
